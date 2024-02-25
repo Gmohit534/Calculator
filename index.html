@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class="mainContainer">
+      <div class="textArea">
+        <textarea class="text" value="abc" placeholder="0"></textarea>
+      </div>
+      <div class="table">
+        <tr>
+          <div class="row1">
+            <button value="7" onclick="onClickNumber(event)">7</button>
+            <button value="8" onclick="onClickNumber(event)">8</button>
+            <button value="9" onclick="onClickNumber(event)">9</button>
+            <button id="del" onclick="onDelete()">DEL</button>
+          </div>
+        </tr>
+        <tr>
+          <div class="row2">
+            <button value="4" onclick="onClickNumber(event)">4</button>
+            <button value="5" onclick="onClickNumber(event)">5</button>
+            <button value="6" onclick="onClickNumber(event)">6</button>
+            <button value="+" onclick="onClickNumber(event)">+</button>
+          </div>
+        </tr>
+        <tr>
+          <div class="row3">
+            <button value="1" onclick="onClickNumber(event)">1</button>
+            <button value="2" onclick="onClickNumber(event)">2</button>
+            <button value="3" onclick="onClickNumber(event)">3</button>
+            <button value="-" onclick="onClickNumber(event)">-</button>
+          </div>
+        </tr>
+        <tr>
+          <div class="row4">
+            <button value="." onclick="onClickNumber(event)">.</button>
+            <button value="0" onclick="onClickNumber(event)">0</button>
+            <button value="/" onclick="onClickNumber(event)">/</button>
+            <button value="*" onclick="onClickNumber(event)">*</button>
+          </div>
+        </tr>
+        <tr aria-colspan="2">
+          <div class="row5">
+            <button id="reset" onclick="onReset()">RESET</button>
+            <button id="equal" onclick="onClickEqual()">=</button>
+          </div>
+        </tr>
+      </div>
+    </div>
+  </body>
+</html>

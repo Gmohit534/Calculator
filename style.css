@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #3B4664;
+}
+
+.mainContainer {
+    text-align: center;
+    padding-block: 50%;
+}
+
+.text {
+    width: 536px;
+    height: 142.73px;
+    border-radius: 12px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 74.28px;
+    text-align: right;
+
+}
+
+.table {
+    border-radius: 12px;
+    background-color: #00000040;
+    width: 536px;
+    height: 510.5px;
+    margin-left: 364px;
+    margin-top: 14px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 55px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 55px;
+    padding-top: 10px;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 55px;
+    padding-top: 10px;
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 55px;
+    padding-top: 10px;
+}
+
+.row5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 55px;
+    padding-top: 10px;
+}
+
+button {
+    width: 100px;
+    border-radius: 12px;
+    border: 0px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36.31px;
+    background-color: #EAE3DB;
+}
+
+#reset {
+
+    width: 226px;
+    background-color: #647299;
+    font-size: 23.05px;
+    line-height: 27.89px;
+    color: #fff;
+
+}
+
+#equal {
+    width: 226px;
+    background-color: #D13F30;
+    font-size: 23.05px;
+    line-height: 27.89px;
+    color: #fff;
+}
+
+#del {
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #fff;
+    background-color: #647299;
+}
